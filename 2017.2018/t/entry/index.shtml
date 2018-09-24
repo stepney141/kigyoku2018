@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>kigyokusai blog upload</title>
+    </head>
+    <body>
+        <h1>輝玉祭実行委員向けブログメインページ</h1>
+        <p>内部向けのページです。<br>パスワード認証なしにこのページにたどり着いちゃったみたいな人は、それは多分バグなのでお知らせください。<br>また、このページは開発段階のものであり、挙動がおかしかったら教えてください。そこ、デザインがなくて殺風景とか言わない。</p>
+        <a href="newarticle.shtml">新規記事</a>
+        <a href="articles.cgi">記事一覧</a>
+        <a href="images.cgi">画像管理</a>
+        <!--<form method="post" action="upload.cgi" enctype="multipart/form-data"> 
+            <p>
+            タイトル：<input type="text" name="title"/> <br>
+            本文：<textarea name="article" rows="20" cols="40"></textarea> <br>
+            <input type="file" name="img"> <br>
+            <input type="submit" value="送信"/>
+            </p>
+        </form> -->
+<!--        <h2>記事一覧</h2>
+        <table>
+            <caption>記事一覧</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>filename</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><th>1</th><td>article1.txt</td></tr>
+            </tbody>
+        </table> -->
+        <p></p>
+    </body>
+</html>

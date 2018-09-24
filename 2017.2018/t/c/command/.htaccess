@@ -1,0 +1,7 @@
+DirectoryIndex index.php index.html index.htm .ht
+AuthUserFile /home/gyokuweb/www/.htpasswd
+AuthType Basic
+AuthName "Web access"
+Require valid-user
+Satisfy all
+Order deny,allow
