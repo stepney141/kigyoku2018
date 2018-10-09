@@ -1,0 +1,12 @@
+#module-body ul {
+    margin: 0px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+#module-body ul li {
+    /*border: solid 1px #aaaaaa;*/
+    border: none;
+    border-radius: 20px;
+}

@@ -1,0 +1,13 @@
+body{ padding-top: 50px;}
+img{
+	max-width: 80%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+strong#ishii{font-size: 150% ;}
+.bg {
+    height: 300px;
+    background: url('http://kigyoku.com/photo/Pamphlet_035_002.jpg') center center no-repeat scroll;
+    background-size: cover;
+}

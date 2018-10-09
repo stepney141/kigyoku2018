@@ -1,0 +1,8 @@
+DirectoryIndex index.php index.html index.htm index.shtml
+Options -Indexes +Includes
+AddType text/html shtml
+AddHandler server-parsed shtml
+AuthName "ユーザー名とパスワードをなんか適当に入れてください。分からなかったらお家の人に聞くか、回れ右して帰ってください。"
+AuthUserFile /home/gyokuweb/www/.htpasswd
+AuthType Basic
+require valid-user

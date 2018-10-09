@@ -1,0 +1,70 @@
+* {
+  font-family: Meiryo, "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
+
+@font-face {
+  font-family: Kaiso-Next-B;
+  src: url("../../assets/fonts/Kaiso-Next-B.woff2") format("woff2"), url("../../assets/fonts/Kaiso-Next-B.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.bg {
+  margin-bottom: 30px;
+  width: 100vw;
+  height: 100vh;
+  background: url("../../assets/images/imgpos.jpg") center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+header > nav {
+  margin: 20px;
+  z-index: 1;
+  box-shadow: 0 4px 24px -8px rgba(0, 0, 0, 0.4); }
+
+.bg > div {
+  position: absolute;
+  top: 46vh;
+  left: 10vw; }
+
+.bg h1, .bg h2 {
+  font-family: Kaiso-Next-B; }
+
+.bg h1 {
+  position: absolute;
+  font-size: 10vw;
+  color: #0E73BB;
+  margin-bottom: 0; }
+
+.bg h2 {
+  position: absolute;
+  font-size: 2.6vw;
+  color: var(--white);
+  top: 12vw;
+  left: 22vw; }
+
+.countdown {
+  width: 50vw;
+  height: auto; }
+
+.countdown p {
+  font-size: 1.5rem; }
+
+.countdown .date {
+  font-size: 4rem; }
+
+.heading {
+  margin: 20px auto;
+  font-family: Kaiso-Next-B;
+  font-size: 2rem;
+  color: var(--dark); }
+
+.link figure {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.link figure img {
+  display: inline-block;
+  width: auto;
+  height: 100px; }

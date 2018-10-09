@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>kigyokusai blog upload</title>
+    </head>
+    <body>
+        <h1>輝玉祭実行委員向けブログ新規記事</h1>
+        <p>内部向けのページです。<br>パスワード認証なしにこのページにたどり着いちゃったみたいな人は、それは多分バグなのでお知らせください。<br>また、このページは開発段階のものであり、挙動がおかしかったら教えてください。そこ、デザインがなくて殺風景とか言わない。</p>
+        <!--<p>注意事項：タイトルの部分に改行は入れないでください。内部構造的にアウトです。ちなみにいうとこれはフリでもなんでもありません。頼むからめんどくさいことをしないでください。</p> -->
+        <p>注意事項：8月17日現在、画像は1枚しかアップロードできません。ごめんなさい。あと、画像以外のデータをアップロードするとサーバーエラーが起きます。</p>
+        <p>また、画像を記事内に入れる場合は、本文中の画像を入れたい行に &lt;img class="img-responsive" src="blogimg/画像タイトル.jpg"&gt; と書いてください。ご迷惑をお掛けしております。</p>
+        <p>分からない点やトラブルがあったら、Webサイト担当の北川or石井颯太郎に連絡してください。</p>
+        <a href="index.shtml">メインページ</a>
+        <form method="post" action="upload.cgi" enctype="multipart/form-data"> 
+            <p>
+            <input type="hidden" name="id" value="0"/>
+            タイトル：<textarea name="title" rows="1" cols="80"></textarea> <br>
+            本文：<textarea name="article" rows="20" cols="80"></textarea> <br>
+            <input type="file" name="img"> <br>
+            <input type="submit" value="投稿"/>
+            </p>
+        </form>
+    </body>
+</html>
